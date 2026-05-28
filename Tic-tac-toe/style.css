@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color:#495159;
-  color: #A1E8CC;
+  background-color:black;
+  color: rgb(0, 255, 0);;
   text-align: center;
   font-family: cursive;
 }
@@ -13,7 +13,6 @@ body {
 .container {
   height: 70vh;
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -29,36 +28,37 @@ body {
 }
 
 .box {
-  height: 18vmin;
-  width: 18vmin;
+  height: 19vmin;
+  width: 19vmin;
   border-radius: 1rem;
-  border: none;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  border: 5px solid rgb(0, 255, 0);
   font-size: 8vmin;
-  color: black;
-  background-color:#A1E8CC;
+  color: rgb(0, 255, 0);
+  background-color:black;
+  margin-top: 1vmin;
 }
 
 #reset-btn {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: rgb(0, 255, 0);
   border-radius: 1rem;
   border: none;
+  margin-top: 2vmin;
 }
 
 #new-btn {
   padding: 1rem;
   font-size: 1.25rem;
   background-color: #191913;
-  color: #fff;
+  color: green;
   border-radius: 1rem;
   border: none;
 }
 
 #msg {
-  color: #ffffc7;
+  color: rgb(0, 255, 0);
   font-size: 5vmin;
 }
 
@@ -73,4 +73,12 @@ body {
 
 .hide {
   display: none;
+}
+.nv{
+  font-size:5vmin;
+}
+.box {
+  border: 2px solid rgb(0, 255, 0);
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 0 15px rgb(0, 255, 0);
 }
